@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+  <title>HealthyFOOD</title>
+</head>
+<body>
+  <header class="header">
+  <div class="container nav">
+    <div class="logo">
+      <a href="home.html">
+        <img src="./img/logo.png" alt="logo">
+      </a>      
+    </div>
+    <div>
+      <ul class="menu">
+        <li class="menu__item"><a href="home.html">Головна</a></li>
+        <li class="menu__item"><a href="about-us.html">Про нас</a></li>
+        <li class="menu__item"><a href="categories.html">Категорії</a></li>
+        <li class="menu__item"><a href="contact.html">Контакти</a></li>
+      </ul>
+      <nav class="header__nav">
+				<div id="burger" class="burger">
+					<span id="trigger" class="trigger">
+				</span>
+				</div>
+				<!-- menu -->
+				<ul id="menu" class="burger-menu">
+					<li class="burger-menu__item"><a href="home.html">Головна</a></li>
+          <li class="burger-menu__item"><a href="about-us.html">Про нас</a></li>
+          <li class="burger-menu__item"><a href="categories.html">Категорії</a></li>
+          <li class="burger-menu__item"><a href="contact.html">Контакти</a></li>
+				</ul>
+				
+			</nav>
+    </div>
+  </div>
+</header>
+  
+
+  <section class="distraction">
+    <div class="container__small">
+      <h2 class="title">Молочний кисіль</h2>
+      <div class="distraction__link">
+        <a href="menu-peptic-ulcer.html">Виразка шлунку</a>
+        <span>&bull;</span>
+        <a href="menu-gluten-free.html">Безглютенова дієта</a>
+      </div>
+      <div class="distraction__img">
+        <img src="img/recipe/molochnij-kisel-s-vanilju/molochnij-kisel-s-vanilju-6.jpg" alt="molochnij-kisel-s-vanilju">
+      </div>
+      <div class="distraction__info">
+        <div class="distraction__wrap">
+          <div class="distraction__portion">
+             <svg>
+                <use xlink:href="#portion"><svg viewBox="0 0 23 19" id="portion"><g fill-rule="evenodd"><path d="M3 7.96c0 .02-.02.04-.046.04h17.092C20.02 8 20 7.98 20 7.96c-.001 4.426-3.81 8.04-8.5 8.04C6.807 16 3 12.386 3 7.96zm18 0a.957.957 0 0 0-.954-.96H2.954A.956.956 0 0 0 2 7.96C2 12.95 6.267 17 11.5 17c5.232 0 9.499-4.05 9.5-9.04zM18.598 19H4.403C4.181 19 4 18.776 4 18.5s.18-.5.403-.5h14.194c.222 0 .403.224.403.5s-.18.5-.402.5zm4.06-10h-1.317C21.153 9 21 8.776 21 8.5s.153-.5.341-.5h1.318c.188 0 .341.224.341.5s-.153.5-.341.5zm-21 0H.342C.153 9 0 8.776 0 8.5S.153 8 .341 8H1.66c.188 0 .341.224.341.5s-.153.5-.341.5z"></path><rect width="1" height="6" x="11" rx=".5"></rect><rect width="1" height="3" x="8" y="3" rx=".5"></rect><rect width="1" height="3" x="14" y="3" rx=".5"></rect></g></svg></use>
+              </svg>
+            <span>2 порції</span>
+          </div>
+          <div class="distraction__time">
+            <svg>
+              <use xlink:href="#timer">
+                <svg viewBox="0 0 42 49" id="timer"><path d="M42 28c0 11.598-9.402 21-21 21S0 39.598 0 28 9.402 7 21 7s21 9.402 21 21zM21 9C10.507 9 2 17.507 2 28s8.507 19 19 19 19-8.507 19-19S31.493 9 21 9zm0 21a1.994 1.994 0 1 1-1-3.723V14.999h2v11.279c.595.346 1 .984 1 1.722a2 2 0 0 1-2 2zM20 2h-3V0h8v2h-3v5h-2V2z"></path>
+              </svg>
+          </use>
+        </svg>
+            <span>35 хв</span>
+          </div>
+        </div>
+        
+        <div class="distraction__calories">
+          <p class="distraction__calories-title">
+            ЕНЕРГЕТИЧНА ЦІННІСТЬ НА ПОРЦІЮ
+          </p>
+          <ul class="distraction__calories-info">
+            <li><span>КАЛОРІЇ:</span>
+              311 ккал
+            </li>
+            <li><span>БІЛКИ:</span> 
+              8,3 гр
+            </li>
+            <li><span>ЖИРИ:</span> 
+              10,8 гр
+            </li>
+            <li><span>ВУГЛЕВОДИ:</span> 
+              45 гр
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ingredients -->
+  <section class="ingredients">
+    <div class="container__middle">
+      <h3 class="second-title">ІНГРІДІЄНТИ</h3>
+      <div class="ingredients__block"> 
+  <input id="check1" type="checkbox" class="checkbox">    
+  <label class="ingredients__name" for="check1"> Молоко</label>
+  <span class="ingredients__line"></span><hr></span>
+  <span class="ingredients__name">500 мл</span>        
+</div>
+      <div class="ingredients__block"> 
+  <input id="check2" type="checkbox" class="checkbox">    
+  <label class="ingredients__name" for="check2"> Картопляний крохмаль</label>
+  <span class="ingredients__line"></span><hr></span>
+  <span class="ingredients__name">1 ст.л.</span>        
+</div>
+      <div class="ingredients__block"> 
+  <input id="check3" type="checkbox" class="checkbox">    
+  <label class="ingredients__name" for="check3"> Ванільний стручок</label>
+  <span class="ingredients__line"></span><hr></span>
+  <span class="ingredients__name">1 шт</span>        
+</div>
+      <div class="ingredients__block"> 
+  <input id="check4" type="checkbox" class="checkbox">    
+  <label class="ingredients__name" for="check4"> Цукор</label>
+  <span class="ingredients__line"></span><hr></span>
+  <span class="ingredients__name">3 ст.л.</span>        
+</div>
+      <div class="ingredients__block"> 
+  <input id="check5" type="checkbox" class="checkbox">    
+  <label class="ingredients__name" for="check5"> Шоколад</label>
+  <span class="ingredients__line"></span><hr></span>
+  <span class="ingredients__name">1 ст.л.</span>        
+</div>
+      <div class="ingredients__button-modul">
+        <span>Чогось не  хватає?</span>
+        <a href="about-us.html" class="button ml-auto popup__open">докупити</a>
+      </div> 
+      <!-- popup-fade -->
+      <div class="popup__fade">
+        <div class="popup">
+          <h3 class="second-title">Молочний кисіль</h3>
+          <p class="popup__text">Вкажiть продукти, якi необхiдно вiдправити за указаним номером телеграму </p>
+          <form action="#">
+            <div class="ingredients__block"> 
+  <input id="check11" type="checkbox" class="checkbox">    
+  <label class="ingredients__name" for="check11"> Молоко</label>
+  <span class="ingredients__line"></span><hr></span>
+  <span class="ingredients__name">500 мл</span>        
+</div>
+            <div class="ingredients__block"> 
+  <input id="check22" type="checkbox" class="checkbox">    
+  <label class="ingredients__name" for="check22"> Картопляний крохмаль</label>
+  <span class="ingredients__line"></span><hr></span>
+  <span class="ingredients__name">1 ст.л.</span>        
+</div>
+            <div class="ingredients__block"> 
+  <input id="check33" type="checkbox" class="checkbox">    
+  <label class="ingredients__name" for="check33"> Ванільний стручок</label>
+  <span class="ingredients__line"></span><hr></span>
+  <span class="ingredients__name">1 шт</span>        
+</div>
+            <div class="ingredients__block"> 
+  <input id="check44" type="checkbox" class="checkbox">    
+  <label class="ingredients__name" for="check44"> Цукор</label>
+  <span class="ingredients__line"></span><hr></span>
+  <span class="ingredients__name">3 ст.л.</span>        
+</div>
+            <div class="ingredients__block"> 
+  <input id="check55" type="checkbox" class="checkbox">    
+  <label class="ingredients__name" for="check55"> Шоколад</label>
+  <span class="ingredients__line"></span><hr></span>
+  <span class="ingredients__name">1 ст.л.</span>        
+</div>
+            <div class="popup__telega">
+              <span>telegram :</span>
+              <input required type="number" class="popup__input" placeholder="PHONE">
+            </div>
+            <div class="popup__buttons">
+              <button class="popup__close button button__close">Вiдмiна</button>
+              <input type="submit" class="button button__entered" placeholder="ВIДПРАВИТИ">
+            </div>
+          </form>          
+        </div>    
+      </div>
+    </div>
+  </section>
+  <!-- cooking -->
+  <section class="cooking">
+    <div class="container__middle">
+      <h3 class="second-title">Приготування</h3>
+      <div class="cooking__block">
+  <div class="cooking__img">
+    <img src="img/recipe/molochnij-kisel-s-vanilju/molochnij-kisel-s-vanilju-2.jpg" alt="img-cooking">
+  </div>
+  <p class="cooking__text">Стручок мадагаскарської ванілі гострим ножем розрізати в довжину навпіл і вишкребти нутрощі - маленькі чорні насіння.</p>
+</div> <div class="cooking__block">
+  <div class="cooking__img">
+    <img src="img/recipe/molochnij-kisel-s-vanilju/molochnij-kisel-s-vanilju-3.jpg" alt="img-cooking">
+  </div>
+  <p class="cooking__text">Крохмаль розвести в половині склянки молока. Щоб уникнути утворення грудочок, молоко краще влити тонкою цівкою в миску з крохмалем, а потім акуратно розмішати все чайною ложкою.</p>
+</div>
+      <div class="cooking__block">
+  <div class="cooking__img">
+    <img src="img/recipe/molochnij-kisel-s-vanilju/molochnij-kisel-s-vanilju-4.jpg" alt="img-cooking">
+  </div>
+  <p class="cooking__text">Час, що залишився молоко вилити в маленький сотейник, додати стручок ванілі разом з насінням, довести до кипіння, потім зменшити вогонь, витягти стручок і тонкою цівкою влити розведений в молоці крохмаль.</p>
+</div>
+      <div class="cooking__block">
+  <div class="cooking__img">
+    <img src="img/recipe/molochnij-kisel-s-vanilju/molochnij-kisel-s-vanilju-5.jpg" alt="img-cooking">
+  </div>
+  <p class="cooking__text">Додати цукор або мед (мед краще взяти делікатний, наприклад, з квітів акації). Варити, постійно помішуючи, дві-три хвилини. Помішувати найкраще віночком - тоді точно не буде грудочок.</p>
+</div>
+      <div class="cooking__block">
+  <div class="cooking__img">
+    <img src="img/recipe/molochnij-kisel-s-vanilju/molochnij-kisel-s-vanilju-6.jpg" alt="img-cooking">
+  </div>
+  <p class="cooking__text">Готовий кисіль охолодити протягом тридцяти хвилин, потім розлити по гуртках і подавати, посипавши тертим темним шоколадом (для контрасту) або какао-порошком.</p>
+</div>
+      <h4 class="cooking__appeal">Смачного апетиту!</h4>
+    </div>    
+  </section>
+
+  <footer class="footer">
+  <div class="footer__first">
+    <div class="container footer__navigation">
+      <div class="footer__list">
+        <span class="footer__title">
+          Навігація
+        </span>
+        <ul>
+          <li><a href="home.html">Головна</a></li>
+          <li><a href="about-us.html">Про нас</a></li>
+          <li><a href="categories.html">Категорії</a></li>
+          <li><a href="contact.html">Контакти</a></li>
+        </ul>
+      </div>
+      <div class="footer__list">
+        <span class="footer__title">
+          Категорії
+        </span>
+        <div class="footer__flex">
+          <ul>
+            <li><a href="menu-diabetes.html">Цукровий діабет</a></li>
+            <li><a href="menu-nirok.html">Захворювання нирок</a></li>
+            <li><a href="menu-gluten-free.html">Безглютенова дієта</a></li>
+          </ul>
+          <ul class="pl-md-4">
+            <li><a href="menu-peptic-ulcer.html">Виразка шлунку</a></li>
+            <li><a href="menu-low-calories.html">Низькокалорійна їжа</a></li>
+          </ul>
+        </div>        
+      </div>
+      <div class="footer__list">
+        <span class="footer__title">
+          Контакти
+        </span>
+        <ul>
+          <li>Email: <a href="#" target="_blank">healthyFood@gmail.com</a></li>
+          <li>Phone: <a href="tel:+38 095 11 22 333"> +38 095 11 22 333</a></li>
+          <li>Map: <a href="https://www.google.com/maps?ll=50.014791,36.228491&z=16&t=m&hl=ru&gl=UA&mapclient=embed&cid=7903483453481431633" target="_blank">м. Харкiв</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer__second">
+    <div class="container">
+      <div class="footer__wrap">
+        <p class="copyright">
+          &copy; Copyright Healthy Food 2021. 
+        </p>
+        <div class="footer__social">
+          <div class="footer__icon">
+            <a href="wait.html" target="_blank">
+              <img src="./img/icon/link-fb.png" alt="link-fb">
+            </a>            
+          </div>
+          <div class="footer__icon">
+            <a href="wait.html" target="_blank">
+              <img src="./img/icon/link-inst.png" alt="link-inst">
+            </a>            
+          </div>
+          <div class="footer__icon">
+            <a href="wait.html" target="_blank">
+              <img src="./img/icon/telegram.png" alt="telegram">
+            </a>            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+</footer>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

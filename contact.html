@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+  <title>HealthyFOOD</title>
+</head>
+<body id="body">
+  <header class="header">
+  <div class="container nav">
+    <div class="logo">
+      <a href="home.html">
+        <img src="./img/logo.png" alt="logo">
+      </a>      
+    </div>
+    <div>
+      <ul class="menu">
+        <li class="menu__item"><a href="home.html">Головна</a></li>
+        <li class="menu__item"><a href="about-us.html">Про нас</a></li>
+        <li class="menu__item"><a href="categories.html">Категорії</a></li>
+        <li class="menu__item"><a href="contact.html">Контакти</a></li>
+      </ul>
+      <nav class="header__nav">
+				<div id="burger" class="burger">
+					<span id="trigger" class="trigger">
+				</span>
+				</div>
+				<!-- menu -->
+				<ul id="menu" class="burger-menu">
+					<li class="burger-menu__item"><a href="home.html">Головна</a></li>
+          <li class="burger-menu__item"><a href="about-us.html">Про нас</a></li>
+          <li class="burger-menu__item"><a href="categories.html">Категорії</a></li>
+          <li class="burger-menu__item"><a href="contact.html">Контакти</a></li>
+				</ul>
+				
+			</nav>
+    </div>
+  </div>
+</header>
+  
+
+  <section class="contact">
+    <div class="container">
+      <h2 class="title">контакти</h2>
+      <iframe class="contact__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2563.8165038833486!2d36.226302115815336!3d50.01479442654039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a1243f9e69d1%3A0x6daed05394f03251!2z0KXQsNGA0YzQutC-0LLRgdC60LjQuSDQvdCw0YbQuNC-0L3QsNC70YzQvdGL0Lkg0YPQvdC40LLQtdGA0YHQuNGC0LXRgiDRgNCw0LTQuNC-0Y3Qu9C10LrRgtGA0L7QvdC40LrQuA!5e0!3m2!1sru!2sua!4v1621581885669!5m2!1sru!2sua" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <div class="contact__row">
+        <div class="contact__col">
+          <h3 class="second-title">записатись</h3>
+          <p class="contact__text">
+             Ви маєте можливість залишити свої контактні данні для запису на зустріч з нашим дієтологом. Лікар запише для вас індивідуальний раціон харчування, що допоможе покращити ваше здоро'я.
+          </p>
+          <p class="contact__text">
+            Також можете запропонувани свої ідеї нових категорій або рецептів. Всі запитання по телефону, залишіт свої данні і ми вам обов'язково зателефонуємо або напишемо у відповідь.
+         </p>
+         <p class="contact__text">
+          Чекаємо саме на вас!
+       </p>
+          <div class="contact__info">
+            <ul>
+              <li>Email: <a href="#" target="_blank">healthyFood@gmail.com</a></li>
+              <li>Phone: <a href="tel:+38 095 11 22 333"> +38 095 11 22 333</a></li>
+              <li>Map: <a href="https://www.google.com/maps?ll=50.014791,36.228491&z=16&t=m&hl=ru&gl=UA&mapclient=embed&cid=7903483453481431633" target="_blank">Харьков, пр. Науки 14</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="contact__col">
+          <form action="#" class="contact__form">
+            <input type="text" id="userName" class="contact__input" placeholder="NAME" required>
+            <input type="email" id="userEmail" class="contact__input" placeholder="EMAIL" required>
+            <textarea name="message" id="message" class="contact__input" cols="30" rows="10" placeholder="MESSAGE"></textarea>
+            <div class="flex">
+              <button type="submit" class="button button__entered">ВIдправити</button>
+            </div>            
+          </form>          
+        </div>
+      </div>      
+    </div>
+  </section>
+  
+
+<footer class="footer">
+  <div class="footer__first">
+    <div class="container footer__navigation">
+      <div class="footer__list">
+        <span class="footer__title">
+          Навігація
+        </span>
+        <ul>
+          <li><a href="home.html">Головна</a></li>
+          <li><a href="about-us.html">Про нас</a></li>
+          <li><a href="categories.html">Категорії</a></li>
+          <li><a href="contact.html">Контакти</a></li>
+        </ul>
+      </div>
+      <div class="footer__list">
+        <span class="footer__title">
+          Категорії
+        </span>
+        <div class="footer__flex">
+          <ul>
+            <li><a href="menu-diabetes.html">Цукровий діабет</a></li>
+            <li><a href="menu-nirok.html">Захворювання нирок</a></li>
+            <li><a href="menu-gluten-free.html">Безглютенова дієта</a></li>
+          </ul>
+          <ul class="pl-md-4">
+            <li><a href="menu-peptic-ulcer.html">Виразка шлунку</a></li>
+            <li><a href="menu-low-calories.html">Низькокалорійна їжа</a></li>
+          </ul>
+        </div>        
+      </div>
+      <div class="footer__list">
+        <span class="footer__title">
+          Контакти
+        </span>
+        <ul>
+          <li>Email: <a href="#" target="_blank">healthyFood@gmail.com</a></li>
+          <li>Phone: <a href="tel:+38 095 11 22 333"> +38 095 11 22 333</a></li>
+          <li>Map: <a href="https://www.google.com/maps?ll=50.014791,36.228491&z=16&t=m&hl=ru&gl=UA&mapclient=embed&cid=7903483453481431633" target="_blank">м. Харкiв</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer__second">
+    <div class="container">
+      <div class="footer__wrap">
+        <p class="copyright">
+          &copy; Copyright Healthy Food 2021. 
+        </p>
+        <div class="footer__social">
+          <div class="footer__icon">
+            <a href="wait.html" target="_blank">
+              <img src="./img/icon/link-fb.png" alt="link-fb">
+            </a>            
+          </div>
+          <div class="footer__icon">
+            <a href="wait.html" target="_blank">
+              <img src="./img/icon/link-inst.png" alt="link-inst">
+            </a>            
+          </div>
+          <div class="footer__icon">
+            <a href="wait.html" target="_blank">
+              <img src="./img/icon/telegram.png" alt="telegram">
+            </a>            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
