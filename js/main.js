@@ -11,7 +11,7 @@ function open() {
 
 
 
-$(document).ready(function($){
+$(document).ready(function(){
   $('.item-first').click(function(){
     $('.categories__context').removeClass('active');
     $('.item-first').addClass('active');
